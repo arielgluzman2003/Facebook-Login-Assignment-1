@@ -13,16 +13,23 @@
 }
 
 .form-control {
-  margin: 10px;
+  font-size: 22px;
 }
 
 .btn-primary {
   background-color: #0866ff;
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  outline: none;
 }
 .btn-success {
   background-color: #42b72a;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  outline: auto;
 }
 
 .facebook-logo {
@@ -33,9 +40,50 @@
   color: black;
   font-family: Arial;
   font-size: 35px;
+  margin-right: 30px;
+  margin-left: 20px;
 }
 
 .login-form {
   color: black; /*Change the placeholder color*/
   font-family: sans-serif;
+}
+
+.form-control {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+hr {
+  margin-top: 25px;
+}
+
+input.form-control::placeholder {
+  opacity: 0.5;
+}
+
+.login-elements {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.create-page-link {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.create-page-link:visited,
+.create-page-link:active,
+.create-page-link:hover {
+  text-decoration: underline;
+}
+
+.create-page {
+  margin-top: 25px;
 }
