@@ -5,6 +5,14 @@
   margin-right: 10px;
 }
 
+.facebook-user-photo {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
 .feed-section {
   height: 30px;
   width: 70px;
@@ -28,4 +36,128 @@
   margin-right: 100px;
   margin-left: 100px;
   margin-top: 20px;
+}
+
+.notification-button {
+  background-color: #3b3d3e !important;
+  border-color: #3b3d3e !important;
+}
+
+.notification-button:hover {
+  background-color: #4f5051 !important;
+  border-color: #4f5051 !important;
+}
+
+.feed-item-button {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.feed-item-button:hover {
+  background-color: #5f6263 !important;
+  border-color: #5f6263 !important;
+}
+
+.feed-item-icon {
+  border-color: black;
+}
+
+.feed-grid {
+  background-color: #1c1c1d;
+}
+
+.card-header {
+  background-color: #4f5051 !important;
+  margin: 0px !important;
+}
+
+.navbar {
+  background-color: #252728 !important;
+  position: sticky !important;
+  top: 0;
+}
+
+.card {
+  border-color: #4f5051 !important;
+}
+
+.card-image {
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.feed-user-photo {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.feed-user-name {
+  font-family: arial;
+  font-size: 17px;
+  color: white;
+  direction: rtl;
+}
+
+.feed-days-ago {
+  margin-left: 4px; /* Add spacing between elements */
+  color: gray;
+}
+
+.feed-card-information {
+  margin-right: 20px;
+}
+
+.feed-user-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.feed-text-container {
+  text-align: right; /* Align text to the right */
+  margin-left: auto; /* Push text to the right */
+  margin-right: 8px; /* Add some spacing between text and image */
+}
+
+.feed-days-ago-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the right */
+  direction: rtl; /* Reverse the order of elements */
+}
+
+.card-footer {
+  background-color: #4f5051 !important;
+}
+
+.feed-contact-bar-search {
+  font-family: Arial;
+  color: white;
+}
+
+.feed-contact-bar {
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: right;
+}
+.feed-search-bar-button {
+  border-color: transparent !important;
+}
+
+.contact-name {
+  color: white !important;
+}
+
+.contact-photo {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  object-fit: cover;
+}
+
+.feed-item-action {
+  color: white;
+  font-family: arial;
+  font-size: 20px;
 }
