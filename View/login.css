@@ -1,0 +1,41 @@
+.login-page {
+  background-color: #f2f4f7;
+}
+
+.top {
+  height: 20vh; /* 25% of the viewport height */
+}
+.middle {
+  height: 60vh; /* 50% of the viewport height */
+}
+.bottom {
+  height: 20vh; /* 25% of the viewport height */
+}
+
+.form-control {
+  margin: 10px;
+}
+
+.btn-primary {
+  background-color: #0866ff;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.btn-success {
+  background-color: #42b72a;
+}
+
+.facebook-logo {
+  height: 140px;
+}
+
+.facebook-desc {
+  color: black;
+  font-family: Arial;
+  font-size: 35px;
+}
+
+.login-form {
+  color: black; /*Change the placeholder color*/
+  font-family: sans-serif;
+}
