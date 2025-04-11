@@ -1,3 +1,18 @@
+.filter-nav-item {
+  border-radius: 20px;
+  color: white !important;
+  font-family: sans-serif;
+  font-size: medium !important;
+}
+
+.filter-nav-item:hover {
+  background-color: #5f6263 !important;
+}
+
+.filter-nav-item:checked {
+  background-color: #868a8a !important;
+}
+
 .facebook-logo {
   height: 40px;
   width: 40px;
@@ -15,8 +30,18 @@
 
 .feed-section {
   height: 30px;
-  width: 70px;
-  margin: 10px;
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.feed-section-icon:hover {
+  color: #dfe2e2;
+  font-size: 27px;
+}
+
+.feed-section-icon {
+  font-size: 25px;
 }
 
 .filter-logo {
@@ -30,6 +55,8 @@
 
 .filter-nav {
   margin-top: 20px;
+  position: sticky;
+  top: 90px;
 }
 
 .card {
@@ -67,13 +94,21 @@
 
 .card-header {
   background-color: #4f5051 !important;
+  border-color: transparent !important;
   margin: 0px !important;
+}
+.card-text {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: larger;
 }
 
 .navbar {
   background-color: #252728 !important;
   position: sticky !important;
   top: 0;
+  z-index: 1000;
+  height: 70px;
 }
 
 .card {
@@ -133,20 +168,37 @@
 .feed-contact-bar-search {
   font-family: Arial;
   color: white;
+  color: rgba(210, 204, 204, 0.815);
 }
 
 .feed-contact-bar {
-  margin-top: 50px;
+  margin-top: 0px;
   margin-right: 50px;
   margin-left: 50px;
   text-align: right;
+  position: sticky;
+  top: 100px;
 }
 .feed-search-bar-button {
   border-color: transparent !important;
+  color: white !important;
+}
+
+.contact-bar-title {
+  color: rgba(210, 204, 204, 0.815);
+  font-family: Arial;
+  font-size: larger;
 }
 
 .contact-name {
+  border-radius: 20px;
   color: white !important;
+  font-family: sans-serif;
+  font-size: larger !important;
+}
+
+.contact-name:hover {
+  background-color: #737575;
 }
 
 .contact-photo {
@@ -156,8 +208,42 @@
   object-fit: cover;
 }
 
-.feed-item-action {
-  color: white;
+.feed-item-action-button {
+  color: white !important;
+  background-color: transparent;
+  border-color: transparent !important;
   font-family: arial;
   font-size: 20px;
+}
+
+.feed-item-action-button:hover {
+  background-color: #5f6263 !important;
+}
+
+.feed-item-action-button:checked {
+  background-color: #868a8a !important;
+}
+
+.card-body {
+  background-color: #4f5051 !important;
+  color: white !important;
+  direction: rtl;
+  font-family: arial;
+  font-size: medium;
+}
+
+.search-facebook-bar {
+  background-color: #3b3d3e !important;
+  border-radius: 20px !important;
+  border-color: transparent !important;
+  width: 250px !important;
+  height: 45px !important;
+  color: #dfe2e2 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 20px !important;
+}
+.search-facebook-bar::placeholder {
+  color: #dfe2e2 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
 }
